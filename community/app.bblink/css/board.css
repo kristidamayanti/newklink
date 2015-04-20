@@ -1,0 +1,48 @@
+/* 
+    Document   : board
+    Created on : Jan 8, 2013, 5:40:24 PM
+    Author     : sahid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+div.scrollingtext{
+            position:absolute;
+            width: 100%;
+            height: 550px;
+}
+div.rolling_table{
+            position: relative;
+            display:block;
+            height: 550px;
+            overflow: hidden;
+            background-color: #ffffff;
+}
+body{
+    background-image: url(../images/pattern_062.gif);
+    background-repeat: repeat-x y;
+}
+
+div.news_ticker{
+    height: 65px;
+    background-image: url(../images/background_score.jpg);
+    overflow: hidden;
+}
+
+ul.newsticker { /* that's your list */
+    position: relative;
+    font: 14px;
+    list-style-type: none;
+}
+
+ul.newsticker li {
+float: left;
+margin: 0;
+padding: 0 80px 0 0;
+}
+

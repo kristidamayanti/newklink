@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /scripts/
+Disallow: /nbproject/
+Disallow: /myadm/
+Disallow: /css/
+Disallow: /web_fonts/
+
